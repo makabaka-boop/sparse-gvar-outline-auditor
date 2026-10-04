@@ -1,0 +1,8 @@
+# Runtime requirements for the interpolation engine: none beyond the
+# Python 3.10+ standard library (http.server, struct, array, math, json).
+#
+# The following packages are used ONLY by the test-suite (tests/) and the
+# convenience "default font" builder in server.py; the production engine
+# (the vfont/ package) never imports them.
+fonttools>=4.55
+pytest>=7.0
